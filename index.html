@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maple Leaf Books | Cozy Neighborhood Bookstore</title>
+  <meta name="description" content="Maple Leaf Books — a cozy independent bookstore with curated titles, community events, and friendly staff." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- This Skip to content (keyboard users) -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Header / Navigation -->
+  <header role="banner">
+    <nav class="container nav" aria-label="Primary">
+      <h1 class="logo"><a href="#home">Maple Leaf Books</a></h1>
+      <ul class="nav-list">
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#visit">Visit Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="hero" aria-label="Welcome">
+      <!-- Unsplash hero background is set in CSS -->
+      <div class="hero-text container">
+        <h2>Welcome to Maple Leaf Books</h2>
+        <p>Your cozy neighborhood bookstore with stories for every reader.</p>
+        <a href="#books" class="btn">Shop Online</a>
+      </div>
+    </section>
+
+    <!-- Featured Books (REAL books with real cover images) -->
+    <section id="books" class="container section" aria-labelledby="featuredBooksTitle">
+      <h2 id="featuredBooksTitle">Featured Books</h2>
+      <p class="section-lede">Classics hand-picked for this month.</p>
+
+      <div class="book-grid" role="list">
+        <!-- 1 -->
+        <article class="book-card" role="listitem">
+          <img
+            src="images/Book1.png"
+            alt="Book cover of Pride and Prejudice by Jane Austen"
+            width="320" height="480" loading="lazy" />
+          <h3>Pride and Prejudice</h3>
+          <p>Jane Austen — $12.00</p>
+        </article>
+
+        <!-- 2 -->
+        <article class="book-card" role="listitem">
+          <img
+            src="images/Book2.png"
+            alt="Book cover of Persuasion by Jane Austen"
+            width="320" height="480" loading="lazy" />
+          <h3>Persuasion</h3>
+          <p>Jane Austen — $11.50</p>
+        </article>
+
+        <!-- 3 -->
+        <article class="book-card" role="listitem">
+          <img
+            src="images/Book3.png"
+            alt="Book cover of Frankenstein by Mary Shelley"
+            width="320" height="480" loading="lazy" />
+          <h3>Frankenstein</h3>
+          <p>Mary Shelley — $13.00</p>
+        </article>
+
+        <!-- 4 -->
+        <article class="book-card" role="listitem">
+          <img
+           src="images/Book4.png"
+           alt="Book cover of The Secret Garden by Frances Hodgson Burnett"
+           width="320" height="480" loading="lazy" />
+         <h3>The Secret Garden</h3>
+         <p>Frances Hodgson Burnett — $14.00</p>
+
+        </article>
+      </div>
+      
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section alt" aria-labelledby="aboutTitle">
+      <div class="container">
+        <h2 id="aboutTitle">About Our Bookstore</h2>
+        <p class="about-text">
+          Since 1999, Maple Leaf Books has connected readers with stories they love.
+          From weekly book clubs to children’s story hours, we’re a community of book lovers.
+        </p>
+        <div class="quotes">
+          <blockquote class="quote">
+            “Feels like stepping into a warm hug. Thoughtful staff picks!”
+            <cite> — Priya K.</cite>
+          </blockquote>
+          <blockquote class="quote">
+            “My Saturday ritual. Coffee, a corner seat, and a new novel.”
+            <cite> — Martin S.</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visit Us -->
+    <section id="visit" class="section container" aria-labelledby="visitTitle">
+      <h2 id="visitTitle">Visit Us</h2>
+      <p>123 Maple Avenue, Kitchener, ON • Mon–Sat 10–7, Sun 11–5</p>
+      <a href="#home" class="btn dark">Visit Our Store</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container footer">
+      <p>© Idongesit Obinwa 2025  |  Maple Leaf Books</p>
+      <nav aria-label="Footer">
+        <a href="#books">Books</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
